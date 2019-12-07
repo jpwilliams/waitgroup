@@ -8,6 +8,7 @@ class WaitGroup {
 
 	add (delta = 1) {
 		this._current += delta
+		if (this._current < 0) throw new Error('Negative WaitGroup counter')
 		if (this._current === 0) this._emitter.emit('done')
 	}
 
