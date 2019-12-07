@@ -1,0 +1,27 @@
+{
+  "name": "@jpwilliams/waitgroup",
+  "version": "0.0.0",
+  "description": "A tiny version of Golang's WaitGroup with promises everywhere.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpwilliams/waitgroup.git"
+  },
+  "keywords": [
+    "waitgroup",
+    "wait",
+    "group",
+    "async",
+    "promises",
+    "golang"
+  ],
+  "author": "Jack Williams <@jpwilliams>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jpwilliams/waitgroup/issues"
+  },
+  "homepage": "https://github.com/jpwilliams/waitgroup#readme"
+}
