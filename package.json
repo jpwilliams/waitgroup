@@ -4,7 +4,7 @@
   "description": "A tiny version of Golang's WaitGroup with promises everywhere.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/jpwilliams/waitgroup/issues"
   },
-  "homepage": "https://github.com/jpwilliams/waitgroup#readme"
+  "homepage": "https://github.com/jpwilliams/waitgroup#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
