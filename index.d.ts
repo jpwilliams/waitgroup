@@ -1,15 +1,13 @@
-export = WaitGroup
-
 /**
  * A WaitGroup waits for a collection of actions to finish.
  * The main goroutine calls `add` to set the number of actions to wait for.
  * Then each of the actions runs and calls `done` when finished.
  * At the same time, `wait` can be used to return a promise that resolves when all actions have finished.
- * 
+ *
  * The class doesn't implement the race-condition requirements that the Golang package has due to the
  * way Node functions, meaning `add`, `done` and `wait` can be called at any time, in any order.
  */
-declare class WaitGroup {
+export class WaitGroup {
 	constructor()
 
 	/**
