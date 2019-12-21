@@ -8,7 +8,7 @@ npm install --save @jpwilliams/waitgroup
 
 ``` js
 const http = require('http')
-const WaitGroup = require('@jpwilliams/waitgroup')
+const { WaitGroup } = require('@jpwilliams/waitgroup')
 
 async function main () {
 	const wg = new WaitGroup()
