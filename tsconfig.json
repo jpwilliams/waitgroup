@@ -1,0 +1,21 @@
+{
+	"compilerOptions": {
+		"allowJs": true,
+		"checkJs": true,
+		"esModuleInterop": true,
+		"jsx": "react",
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"pretty": true,
+		"strict": true, // includes noImplicitAny, noImplicitThis, alwaysStrict and all strict options
+		"outDir": "lib"
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.test.ts",
+		"**/*.spec.ts"
+	]
+}

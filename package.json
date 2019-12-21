@@ -1,31 +1,53 @@
 {
-  "name": "@jpwilliams/waitgroup",
-  "version": "0.1.0",
-  "description": "A tiny version of Golang's WaitGroup with promises everywhere.",
-  "main": "index.js",
-  "types": "index.d.ts",
-  "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jpwilliams/waitgroup.git"
-  },
-  "keywords": [
-    "waitgroup",
-    "wait",
-    "group",
-    "async",
-    "promises",
-    "golang"
-  ],
-  "author": "Jack Williams <@jpwilliams>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jpwilliams/waitgroup/issues"
-  },
-  "homepage": "https://github.com/jpwilliams/waitgroup#readme",
-  "devDependencies": {
-    "jest": "^24.9.0"
-  }
+	"name": "@jpwilliams/waitgroup",
+	"version": "0.1.0",
+	"description": "A tiny version of Golang's WaitGroup with promises everywhere.",
+	"main": "lib/index.js",
+	"types": "index.d.ts",
+	"scripts": {
+		"clean": "rm -rf lib",
+		"test": "jest",
+		"test:watch": "jest --watchAll",
+		"build": "tsc",
+		"build:watch": "onchange 'src/**/*' -- npm run build"
+	},
+	"files": [
+		"lib"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jpwilliams/waitgroup.git"
+	},
+	"keywords": [
+		"waitgroup",
+		"wait",
+		"group",
+		"async",
+		"promises",
+		"golang"
+	],
+	"author": "Jack Williams <@jpwilliams>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jpwilliams/waitgroup/issues"
+	},
+	"homepage": "https://github.com/jpwilliams/waitgroup#readme",
+	"devDependencies": {
+		"@types/jest": "^24.0.24",
+		"@types/node": "^12.12.21",
+		"@typescript-eslint/eslint-plugin": "^2.12.0",
+		"@typescript-eslint/parser": "^2.12.0",
+		"eslint": "^6.8.0",
+		"eslint-import-resolver-typescript": "^2.0.0",
+		"eslint-plugin-import": "^2.19.1",
+		"eslint-plugin-jest": "^23.1.1",
+		"eslint-plugin-json": "^2.0.1",
+		"eslint-plugin-node": "^10.0.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"jest": "^24.9.0",
+		"onchange": "^6.1.0",
+		"ts-jest": "^24.2.0",
+		"typescript": "^3.7.4"
+	}
 }

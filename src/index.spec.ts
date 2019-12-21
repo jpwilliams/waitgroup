@@ -1,4 +1,4 @@
-const WaitGroup = require('./')
+import { WaitGroup } from './'
 
 test('exports class constructor', () => {
 	expect(typeof WaitGroup).toBe('function')
@@ -13,7 +13,7 @@ test('wait() instantly returns if no actions taken yet', () => {
 	const wg = new WaitGroup()
 	const wait = wg.wait()
 
-	return expect(wait).resolves.toEqual()
+	return expect(wait).resolves.toEqual(undefined)
 })
 
 test('add() increments internal counter by default of 1', () => {
@@ -55,11 +55,12 @@ test('wait() waits for internal counter to reach 0', async () => {
 		isResolved = true
 	})
 
-	await expect(isResolved).toEqual(false)
+	expect(isResolved).toEqual(false)
+
 	wg.done()
-	await expect(isResolved).toEqual(false)
+	expect(isResolved).toEqual(false)
+
 	wg.done()
-	await expect(waiting).resolves.toEqual()
-	await expect(isResolved).toEqual(true)
-	
+	await expect(waiting).resolves.toEqual(undefined)
+	expect(isResolved).toEqual(true)
 })
