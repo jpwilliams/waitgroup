@@ -12,7 +12,8 @@
 		"build:watch": "onchange 'src/**/*' -- npm run build"
 	},
 	"files": [
-		"lib"
+		"lib",
+		"index.d.ts"
 	],
 	"repository": {
 		"type": "git",
