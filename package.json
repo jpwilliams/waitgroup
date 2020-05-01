@@ -47,7 +47,7 @@
 		"eslint-plugin-promise": "^4.2.1",
 		"eslint-plugin-standard": "^4.0.1",
 		"jest": "^25.1.0",
-		"onchange": "^6.1.0",
+		"onchange": "^7.0.2",
 		"ts-jest": "^25.2.1",
 		"typescript": "^3.7.4"
 	}
