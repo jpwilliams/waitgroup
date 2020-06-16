@@ -1,6 +1,6 @@
 # @jpwilliams/waitgroup
 
-A tiny version of Golang's WaitGroup with typings and promises.
+A tiny version of Golang's [WaitGroup](https://golang.org/pkg/sync/#WaitGroup) with typings, promises, and zero dependencies.
 
 ``` sh
 npm install --save @jpwilliams/waitgroup
