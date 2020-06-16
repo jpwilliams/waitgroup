@@ -1,7 +1,7 @@
 {
 	"name": "@jpwilliams/waitgroup",
 	"version": "0.2.4",
-	"description": "A tiny version of Golang's WaitGroup with promises everywhere.",
+	"description": "A tiny version of Golang's WaitGroup with typings and promises.",
 	"main": "lib/index.js",
 	"types": "index.d.ts",
 	"scripts": {
@@ -25,7 +25,10 @@
 		"group",
 		"async",
 		"promises",
-		"golang"
+		"golang",
+		"types",
+		"typings",
+		"typescript"
 	],
 	"author": "Jack Williams <@jpwilliams>",
 	"license": "MIT",
