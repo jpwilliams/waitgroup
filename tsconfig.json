@@ -2,6 +2,7 @@
 	"compilerOptions": {
 		"allowJs": true,
 		"checkJs": true,
+		"declaration": true,
 		"esModuleInterop": true,
 		"jsx": "react",
 		"noImplicitReturns": true,

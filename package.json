@@ -3,7 +3,6 @@
 	"version": "0.2.4",
 	"description": "A tiny version of Golang's WaitGroup with typings and promises.",
 	"main": "lib/index.js",
-	"types": "index.d.ts",
 	"scripts": {
 		"clean": "rm -rf lib",
 		"test": "jest",
@@ -12,8 +11,7 @@
 		"build:watch": "onchange 'src/**/*' -- npm run build"
 	},
 	"files": [
-		"lib",
-		"index.d.ts"
+		"lib"
 	],
 	"repository": {
 		"type": "git",
