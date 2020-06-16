@@ -1,6 +1,6 @@
 {
 	"name": "@jpwilliams/waitgroup",
-	"version": "0.2.4",
+	"version": "0.2.5",
 	"description": "A tiny version of Golang's WaitGroup with typings and promises.",
 	"main": "lib/index.js",
 	"scripts": {
