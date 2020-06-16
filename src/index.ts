@@ -33,6 +33,7 @@ export class WaitGroup {
 
 	/**
 	 * Returns a promise that resolves when the WaitGroup counter is zero.
+	 * If the counter is zero when the method is called, it's resolved immediately.
 	 */
 	public wait (): Promise<void> {
 		return new Promise((resolve) => {
