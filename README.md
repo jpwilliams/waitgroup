@@ -38,3 +38,4 @@ main()
 
 For most applications in Node.js, using built-ins like `Promise.all` will work perfectly, but sometimes this can be a really nice abstraction if the promises you have to keep track of are pretty spread out.
 
+See [jpwilliams/waitgroup-deno](https://github.com/jpwilliams/waitgroup-deno) for a [Deno](https://deno.land/) version.
