@@ -1,5 +1,7 @@
 # @jpwilliams/waitgroup
 
+![npm version](https://img.shields.io/npm/v/@jpwilliams/waitgroup) ![Test on push](https://github.com/jpwilliams/waitgroup/workflows/Test%20on%20push/badge.svg) ![Dependencies](https://img.shields.io/david/jpwilliams/waitgroup) ![Downloads](https://img.shields.io/npm/dm/@jpwilliams/waitgroup)
+
 A tiny version of Golang's [WaitGroup](https://golang.org/pkg/sync/#WaitGroup) with typings, promises, and zero dependencies.
 
 ``` sh
