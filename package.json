@@ -5,7 +5,7 @@
 	"main": "lib/index.js",
 	"scripts": {
 		"clean": "rm -rf lib",
-		"test": "jest",
+		"test": "jest --coverage",
 		"test:watch": "jest --watchAll",
 		"build": "tsc",
 		"build:watch": "onchange 'src/**/*' -- npm run build"
