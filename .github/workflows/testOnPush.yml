@@ -5,11 +5,14 @@ on: push
 jobs:
   build:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node: [8, 10, 12, 14]
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
         with:
-          node-version: 12
+          node-version: ${{ matrix.node }}
       - run: npm ci
       - run: npm run build
       - run: npm run test
