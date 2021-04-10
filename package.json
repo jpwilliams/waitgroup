@@ -45,7 +45,7 @@
 		"eslint-plugin-jest": "24.2.1",
 		"eslint-plugin-json": "2.1.2",
 		"eslint-plugin-node": "11.1.0",
-		"eslint-plugin-promise": "4.3.1",
+		"eslint-plugin-promise": "5.1.0",
 		"eslint-plugin-standard": "5.0.0",
 		"jest": "25.5.4",
 		"onchange": "7.1.0",
