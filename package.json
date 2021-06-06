@@ -49,7 +49,7 @@
 		"eslint-plugin-standard": "5.0.0",
 		"jest": "25.5.4",
 		"onchange": "7.1.0",
-		"ts-jest": "25.5.1",
+		"ts-jest": "27.0.3",
 		"typescript": "4.2.3"
 	}
 }
