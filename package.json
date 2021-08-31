@@ -35,21 +35,21 @@
 	},
 	"homepage": "https://github.com/jpwilliams/waitgroup#readme",
 	"devDependencies": {
-		"@types/jest": "26.0.20",
-		"@types/node": "14.14.31",
-		"@typescript-eslint/eslint-plugin": "2.34.0",
-		"@typescript-eslint/parser": "2.34.0",
-		"eslint": "6.8.0",
+		"@types/jest": "27.0.1",
+		"@types/node": "14.14.33",
+		"@typescript-eslint/eslint-plugin": "4.17.0",
+		"@typescript-eslint/parser": "4.17.0",
+		"eslint": "7.32.0",
 		"eslint-import-resolver-typescript": "2.4.0",
 		"eslint-plugin-import": "2.22.1",
-		"eslint-plugin-jest": "24.1.5",
-		"eslint-plugin-json": "2.1.2",
+		"eslint-plugin-jest": "24.2.1",
+		"eslint-plugin-json": "3.1.0",
 		"eslint-plugin-node": "11.1.0",
-		"eslint-plugin-promise": "4.3.1",
+		"eslint-plugin-promise": "5.1.0",
 		"eslint-plugin-standard": "5.0.0",
-		"jest": "26.6.3",
+		"jest": "25.5.4",
 		"onchange": "7.1.0",
-		"ts-jest": "26.5.6",
-		"typescript": "3.9.9"
+		"ts-jest": "25.5.1",
+		"typescript": "4.2.3"
 	}
 }
