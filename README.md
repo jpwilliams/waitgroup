@@ -2,7 +2,7 @@
 
 ![npm version](https://img.shields.io/npm/v/@jpwilliams/waitgroup) ![Test on push](https://github.com/jpwilliams/waitgroup/workflows/Test%20on%20push/badge.svg) ![Downloads](https://img.shields.io/npm/dm/@jpwilliams/waitgroup)
 
-A tiny version of Golang's [WaitGroup](https://golang.org/pkg/sync/#WaitGroup) with typings, promises, and zero dependencies.
+A tiny version of Golang's [WaitGroup](https://golang.org/pkg/sync/#WaitGroup) for Node.js and the browser with typings, promises, and zero dependencies.
 
 ```sh
 npm install @jpwilliams/waitgroup

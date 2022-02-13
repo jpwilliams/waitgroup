@@ -42,13 +42,13 @@ describe('WaitGroup', () => {
 		test('increments internal counter by default of 1', () => {
 			const wg = new WaitGroup()
 			wg.add()
-			expect(wg['_current']).toEqual(1)
+			expect(wg['current']).toEqual(1)
 		})
 
 		test('increments internal counter given value', () => {
 			const wg = new WaitGroup()
 			wg.add(3)
-			expect(wg['_current']).toEqual(3)
+			expect(wg['current']).toEqual(3)
 		})
 
 		test('throws if add() results in a negative counter', () => {
@@ -61,9 +61,9 @@ describe('WaitGroup', () => {
 		test('decrements internal counter by 1', () => {
 			const wg = new WaitGroup()
 			wg.add(3)
-			expect(wg['_current']).toEqual(3)
+			expect(wg['current']).toEqual(3)
 			wg.done()
-			expect(wg['_current']).toEqual(2)
+			expect(wg['current']).toEqual(2)
 		})
 
 		test('throws if done() results in a negative counter', () => {
