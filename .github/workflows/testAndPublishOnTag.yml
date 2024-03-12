@@ -52,3 +52,19 @@ jobs:
           npm publish --registry=https://npm.pkg.github.com/jpwilliams --scope=@jpwilliams
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+  publish-jsr:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write # The OIDC ID token is used for authentication with JSR.
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+      - run: npm ci
+      - run: npm run build
+      - run: npx jsr publish
