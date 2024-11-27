@@ -50,5 +50,12 @@
     "onchange": "^7.1.0",
     "ts-jest": "^29.1.2",
     "typescript": "^5.4.2"
-  }
+  },
+  "exports": {
+    ".": {
+      "import": "./lib/index.mjs",
+      "require": "./lib/index.js"
+    }
+  },
+  "type": "module"
 }
